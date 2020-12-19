@@ -60,4 +60,4 @@ Application Screenshots:
 ![Weather App - 01](https://user-images.githubusercontent.com/19741669/102681526-0452d200-41fd-11eb-8b6a-d746a6e99a32.png)
 ![Weather App - 02](https://user-images.githubusercontent.com/19741669/102681536-09178600-41fd-11eb-8e74-44a1aa0a3e5a.png)
 ![Weather App - 03](https://user-images.githubusercontent.com/19741669/102681537-0b79e000-41fd-11eb-84c7-006ce1e9d529.png)
-```
+
