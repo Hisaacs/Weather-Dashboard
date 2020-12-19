@@ -2,11 +2,13 @@
     box-sizing: border-box;
 }
 
+/* This will display the application in 100 percent of the window */
 body {
     height: 100%;
     margin: 0;
 }
 
+/* Search button */
 button {
     width: 70px;
     height: auto;
@@ -16,15 +18,18 @@ button {
     transition-duration: .4s;
 }
 
+/* Search button when mouse over Search button */
 button:hover {
     background-color: #70defa;
 }
 
+/* Button has focus when clicked and border color changes to red which has focus */
 button:focus {
     border: none;
-    outline-color: #b2bec3;
+    outline-color: #f80606;
 }
 
+/* This is the Header section */
 header {
     width: 100%;
     height: 100px;
@@ -35,6 +40,7 @@ header {
     background-color: #2f3640;
 }
 
+/* This is the font family used for the heading, paragraphs and list items */
 h1,
 h3,
 p,
@@ -42,21 +48,24 @@ li {
     font-family: 'Roboto', sans-serif;
 }
 
+/* This is your Top heding with margin a padding */
 header h1 {
     margin: 0;
     padding-top: 10px;
 }
 
+/* This provide the window content spacing */
 html {
     height: 100%;
 }
 
+/* This provide the input color and border radius of the input area */
 input {
     border: 1px solid #cecfd2;
     border-radius: 5px;
 }
 
-
+/* This section is the container with a two columns */
 .container {
     display: flex;
     flex-direction: row;
@@ -64,35 +73,40 @@ input {
     height: 100%;
 }
 
+/* This section provide padding and background color for the search input */
 .search {
     padding: 25px;
     background-color: #f5f6fa;
 }
 
+/* This provide the line height distance from the top Header */
 .search h1 {
     line-height: 30px;
 }
 
+/* This sesction provide the five day forecast margin, border, padding and height */
 .forecast {
     margin-top: 25px;
     border: solid 1px #cecfd2;
     margin-left: 5%;
     min-width: 640px;
     padding: 12px 15px 15px 15px;
-    height: 40%;
+    height: 30%;
 }
 
-
+/* This section provides the five day for margin spacing */
 .five-day-container h1 {
     margin-top: 25px;
     margin-left: 5%;
 }
 
+/* This section display the five day forecast horizontially */
 .card-row {
     display: flex;
     flex-direction: row;
 }
 
+/* This section is focusing on the five day forecast Cards */
 .five-day-card {
     margin-left: 58.5px;
     width: 175px;
@@ -129,11 +143,13 @@ img {
     height: auto;
 }
 
+/* This section provides the iput textarea size */
 input {
     height: 40px;
     width: auto;
 }
 
+/* This section is focusing on the search history buttons */
 li:first-child {
     height: 100%;
     font-size: larger;
@@ -168,10 +184,11 @@ li:hover {
     color: #08b8f8;
 }
 
-li:active {
+li:active, li:focus{
     background-color: #08b8f8;
     color: #000;
 }
+
 
 .row {
     display: flex;
