@@ -3,9 +3,9 @@ Using the OpenWeather API to Build a weather dashboard.
 
 This applicaiton is a weather dashboard with search functionality to find current weather conditions and the future weather forecast for multiple cities. This application utilizes the AJAX to hook into OpenWeather API to retrieve data in JSON format. Using dynamically updated HTML and CSS powered by jQuery we can show the user the follwoing information:
 
-Deployment:URL 
+Deployment:URL (https://hisaacs.github.io/Weather-Dashboard/)
 
-GitHub:URL
+GitHub:URL (https://github.com/Hisaacs/Weather-Dashboard)
 
 Weather Dashboard:
 
@@ -51,6 +51,8 @@ Weather Dashboard:
 ## Conclusion:
 •	One key area I need to improve is, on my JavaScript knowledge as well as looking into best 
     JavaScript best practices for improving my code.
+
+Video Link: https://www.dropbox.com/s/sf59flvbr6rinfq/Weather%20App%20-%2004.mp4?dl=0
 
 Application Screenshots:
 
