@@ -33,17 +33,19 @@ Weather Dashboard:
 
 
 ## Known Issues / Bugs
-•	For example, when you search for a new city, you are unable to click any of the history items to search for the data.
-•	The limit on search history items is endless, so it can become lengthy and could create/cause rendering issues
+*	For example, when you search for a new city, you are unable to click any of the history items to search for the data.
+* The limit on search history items is endless, so it can become lengthy and could create/cause rendering issues
 
 
 ## Key Point on what I've Learned:
-•	Creating my own CSS stylesheet gave me a better perspective and made me think about the layout/ design of the page.
-•	Also by using jQuery, it allowed for a more rapid development of my web application and certainly simplified what would usually be a lot more lenghthy using vanilla JavaScript
-•	For re-useablity breaking down the code into a function to make it more readable and easier to code
+* Creating my own CSS stylesheet gave me a better perspective and made me think about the layout/ design of the page.
+* Also by using jQuery, it allowed for a more rapid development of my web application and certainly simplified what 
+  would usually be a lot more lenghthy using vanilla JavaScript
+* For re-useablity breaking down the code into a function to make it more readable and easier to code
 
 ## Conclusion:
-•	One key area I need to improve is, on my JavaScript knowledge as well as looking into best JavaScript best practices for improving my code.
+*	One key area I need to improve is, on my JavaScript knowledge as well as looking into best JavaScript 
+  best practices for improving my code.
 
 Video Link: https://drive.google.com/file/d/12f9O3g0VshPiQFKt_3C-iFchftyLb52m/view
 
