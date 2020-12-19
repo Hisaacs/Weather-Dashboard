@@ -52,7 +52,7 @@ Weather Dashboard:
 •	One key area I need to improve is, on my JavaScript knowledge as well as looking into best 
     JavaScript best practices for improving my code.
 
-Video Link: https://www.dropbox.com/s/sf59flvbr6rinfq/Weather%20App%20-%2004.mp4?dl=0
+Video Link: https://drive.google.com/file/d/12f9O3g0VshPiQFKt_3C-iFchftyLb52m/view
 
 Application Screenshots:
 
