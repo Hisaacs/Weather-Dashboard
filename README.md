@@ -14,11 +14,11 @@ Weather Dashboard:
 * A dyanmic jQuery web app that allows you to search for the current weather and displays multiple data points for example:
 * A css stylesheet, and the jQuery file with vanilla weather.js
 
- 1. Temperature
- 2. Humidity
- 3. Wind speed
- 4. UV index, 
- 5. Also a 5 day forecast.
+      1. Temperature
+      2. Humidity
+      3. Wind speed
+      4. UV index, 
+      5. Also includes a 5 day forecast.
 
 ## Technologies Used
 *	JQuery: Used for event listeners of parent and children elements as well as to store and
