@@ -1,4 +1,4 @@
-let apiKey = "ecc0be5fd92206da3aa90cc41c13ca56";
+let apiKey = "a4568525018ee4e5cfdf31e325e54373";
 
 let btnSearch = $(".btnSearch");
 let citySearch = $(".citySearch");
