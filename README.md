@@ -21,14 +21,14 @@ Weather Dashboard:
  5. Also a 5 day forecast.
 
 ## Technologies Used
-•	JQuery: Used for event listeners of parent and children elements as well as to store and
+*	JQuery: Used for event listeners of parent and children elements as well as to store and
   recall those  variables in local storage to be displayed dynamically in HTML on the page.
-•	MomentJS - Used to pull current date for the current city.
-•	JavaScript - Used to dynamically change html and store user-input.
-•	HTML - Used to create elements on the DOM.
-•	CSS - Styles html elements on page.
-•	Git - Version control system to track changes to source code.
-•	GitHub - Hosts repository that can be deployed to GitHub Pages.
+*	MomentJS - Used to pull current date for the current city.
+*	JavaScript - Used to dynamically change html and store user-input.
+*	HTML - Used to create elements on the DOM.
+*	CSS - Styles html elements on page.
+*	Git - Version control system to track changes to source code.
+*	GitHub - Hosts repository that can be deployed to GitHub Pages.
 
 
 
