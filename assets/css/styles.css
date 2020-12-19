@@ -63,6 +63,7 @@ html {
 input {
     border: 1px solid #cecfd2;
     border-radius: 5px;
+    font-size: 1rem;
 }
 
 /* This section is the container with a two columns */
@@ -200,3 +201,9 @@ li:active, li:focus{
     margin-right: 5px;
 }
 
+.error {
+    color: red;
+    position:absolute;
+    top: 190px;
+    
+}

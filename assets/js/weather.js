@@ -26,15 +26,23 @@ if (JSON.parse(localStorage.getItem("historySearch")) === null) {
     console.log("historySearch has been loaded into searchedHistory");
     displaySearchHistory();
 }
-// Button on Click Event Listener
+// Button on Click Event Listener with popup if user don't add Search field into input area
 btnSearch.on("click", function (event) {
     event.preventDefault();
-    if (citySearch.val() === "") {
-        alert("You must enter a city");
-        return;
+
+    let inputCity = $(".citySearch").val().trim();
+
+    if (inputCity === "") {
+      $(".error").css("display", "block" );
+      return;
     }
+
+    $(".error").css("display", "none" );
     console.log("clicked button")
     displayWeather(citySearch.val());
+    $(".citySearch").val("");
+    $(".citySearch").select();
+
 });
 // This return the search history 
 $(document).on("click", ".historyEntry", function () {
@@ -44,12 +52,12 @@ $(document).on("click", ".historyEntry", function () {
 })
 
 // This display the Search History
-function displaySearchHistory(cityName) {
+function displaySearchHistory() {
     previousSearch.empty();
     let searchedHistory = JSON.parse(localStorage.getItem("historySearch"));
     for (let i = 0; i < searchedHistory.length; i++) {
         // This adds the listNewItem in a for loop, otherwise the text of element (li) changes instead of making a new element for each index array
-        
+
         let listNewItem = $("<li>").attr("class", "historyEntry");
         listNewItem.text(searchedHistory[i]);
         previousSearch.prepend(listNewItem);
@@ -125,6 +133,7 @@ function displayWeather(displayWeatherResult) {
         });
     displayFiveDayForecast();
 
+    // This section display the 5 day forecast    
     function displayFiveDayForecast() {
         cardRow.empty();
         let queryUrl = `https://api.openweathermap.org/data/2.5/forecast?q=${displayWeatherResult}&APPID=${apiKey}&units=metric`;
@@ -149,6 +158,7 @@ function displayWeather(displayWeatherResult) {
     }
 }
 
+// This creates the five day forecast
 function createForecastCard(date, icon, temp, humidity) {
 
     // HTML elements we will create to later
